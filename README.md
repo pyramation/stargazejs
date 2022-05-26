@@ -10,7 +10,7 @@ const { contracts } from 'stargazejs';
 const client = new contracts.Minter.MinterClient(
     stargateClient,
     sender,
-    contractAddres
+    contractAddress
 );
 
 await client.mint();
