@@ -2,7 +2,7 @@
   "name": "@cosmjson/stargaze-sg721",
   "chain": "stargaze",
   "contract": "sg721",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "stargaze",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/cosmology-finance/cosmjson/tree/master/packages/stargaze#readme",
@@ -17,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/cosmology-finance/cosmjson/issues"
   },
-  "gitHead": "49fe02947d61854b7ee441364d0019179db1fa7b"
+  "gitHead": "1cf6ba220995721a3b6c1163b8f187ba477fd769"
 }

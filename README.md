@@ -15,3 +15,11 @@ const client = new contracts.Minter.MinterClient(
 
 await client.mint();
 ```
+
+Contracts supported:
+
+- Minter
+- Sg721
+- Ics721
+- Claim
+- RoyaltyGroup
