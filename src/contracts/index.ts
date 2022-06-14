@@ -8,6 +8,8 @@ import * as Claim from './ClaimContract';
 import * as ClaimFromPartial from './ClaimContract.from-partial';
 import * as RoyaltyGroup from './RoyaltyGroupContract';
 import * as RoyaltyGroupFromPartial from './RoyaltyGroupContract.from-partial';
+import * as Whitelist from './WhitelistContract';
+import * as WhitelistFromPartial from './WhitelistContract.from-partial';
 
 export const contracts = {
     Minter: {
@@ -29,5 +31,9 @@ export const contracts = {
     RoyaltyGroup: {
         ...RoyaltyGroup,
         ...RoyaltyGroupFromPartial
+    },
+    Whitelist: {
+        ...Whitelist,
+        ...WhitelistFromPartial
     }
 };
